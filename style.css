@@ -1,0 +1,298 @@
+html {
+    font-family: 'Monserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: url(Imagenes/fondo43.jpg) center;
+    backdrop-filter: blur(0.4rem);
+    -webkit-backdrop-filter: blur(0.4rem);
+    margin: 0;
+    background-size: cover;
+}
+
+
+.barra{
+    background: #1b0d699a;
+    backdrop-filter: blur(0.4rem);
+    -webkit-backdrop-filter: blur(0.4rem);
+    padding: 1.5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.barra a {
+    transition: color 0.3s ease;
+    font-size: 24px;
+    color:#efefef;
+    text-decoration: none;
+    cursor:pointer;
+    padding: 25px; 
+    
+}
+
+
+.barra a:hover {
+    color: #c501e2;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 8rem;
+    gap:2rem;
+    margin:0 auto;
+}
+
+.icons a {
+    
+    font-size: 45px;
+    color:#c501e2;
+}
+
+
+.icons a:hover {
+    transform: scale(1.2);
+    transition: all ease 300ms;
+    
+}
+
+
+
+.ivan {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    border-radius: 50%;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+#titulo {
+    font-size: 5rem;
+    margin-bottom: 1.5rem;
+    scroll-margin-top: 150rem;
+}
+
+#acercaDeMi {
+    display: flex;
+    justify-content: center;
+}
+
+section h4 {
+    text-align: center;
+    color: #efefef;
+}
+
+
+.linkedin {
+    cursor:pointer;
+}
+
+.github {
+    cursor:pointer;
+}
+
+header h1, h2 {
+    text-align: center;
+    color: #efefef;
+    margin-top: 0;
+}
+
+
+.tecnologiaCuadro {
+    width: 62rem;
+    height: 24rem;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+    border-radius: 0.5rem;
+    background: #1b0d699a;
+    backdrop-filter: blur(0.4rem);
+    -webkit-backdrop-filter: blur(0.4rem);
+    cursor:pointer;
+}
+
+
+.tecnologiaCuadro:hover {
+    transform: scale(1.030);
+    transition: all ease 300ms;
+}
+
+
+
+#tecnologias {  
+    scroll-margin-top: 330px;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    color: #c501e2;
+}
+
+.uml {
+    padding-left: 10px;
+    padding-right: 0.7rem;
+}
+
+.git{
+    padding-right: 0.7rem;
+}
+
+.java{
+    padding-right: 0,8rem;
+}
+#tecnologiasIMG{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-top: 1rem;
+    cursor:pointer;
+}
+
+
+#tecnologiasIMG img:hover{
+    transform: scale(1.2);
+    transition: all ease 300ms;
+}
+
+.textTecnologias {
+    padding-top: 3rem;
+    font-size: 3rem;
+}
+
+
+.textParrafo {
+    font-size: 1.6rem;
+}
+
+
+.apartConocimientos h4{
+    font-size: 2rem;
+    color: #efefef;
+    display: flex;
+    justify-content: left;
+    margin-left: 9rem;
+}
+
+.apartConocimientos ul{
+    font-size: 1.3rem;
+    justify-content: left;
+    margin-left: 7.5rem;
+    padding-bottom: 4rem;
+}
+
+
+.apartConocimientos li{
+    color: #efefef;
+    padding: 1rem;
+}
+.textProyectos {
+    scroll-margin-top: 70px;
+    font-size: 3rem;
+}
+
+.proyectoUno {
+    width: 62rem;
+    height: 32rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
+    background: #1b0d699a;
+    backdrop-filter: blur(0.4rem);
+    -webkit-backdrop-filter: blur(0.4rem);
+    cursor:pointer;
+}
+
+.proyectoUno:hover {
+    transform: scale(1.030);
+    transition: all ease 300ms;
+}
+
+.peluqueriaCanina {
+    transition: color 0.3s ease;
+    color:#efefef;
+    text-decoration: none;
+    padding-right: 27rem;
+    padding-left: 1rem;
+}
+
+.proyectoUno a{
+    font-size: 30px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+    
+}
+
+.proyectoUno img {
+    max-width: 400px;
+    border-radius: 10px;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    margin-bottom: -2rem;
+}
+
+.imgPeluCanina{
+    border: 5px solid #c501e2;
+}
+
+.linkPeluCanina{
+    width: 30px;
+    float: right;
+    padding-top: 0.5rem;
+    margin-right: -52rem;
+    
+}
+
+.linkPeluCanina:hover {
+    transform: scale(1.2);
+    transition: all ease 300ms;
+}
+
+
+.parrafoPeluCanina {  
+    font-size:20px;
+    color: #efefef;
+    text-align: left;
+    float: right;
+    padding-top: 1rem;
+    padding-right: 1rem;
+}
+
+.fechaPeluCanina{
+    font-size:20px;
+    color: #efefef;
+    float: right;
+    margin-top:1.5rem;
+    margin-right: 2rem;
+}
+
+
+footer {
+    background: #1b0d699a;
+    backdrop-filter: blur(0.8rem);
+    -webkit-backdrop-filter: blur(0.4rem);
+    padding: 3rem;
+    margin-top: 10rem;
+    
+}
+
+footer a {
+    transition: color 0.3s ease;
+    float: right;
+    color:#efefef;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #c501e2;
+}
+
+footer p {
+    color:#efefef;
+    margin: 0;
+}
